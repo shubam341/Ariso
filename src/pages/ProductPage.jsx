@@ -50,7 +50,7 @@ const ProductPage = () => {
   return (
      <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header with Back Arrow */}
-      <div className="flex items-center p-4 bg-white">
+      {/* <div className="flex items-center p-4 bg-white">
         <button
           onClick={() => navigate(-1)} // go back
           className="p-2 hover:bg-gray-100 rounded-full"
@@ -58,7 +58,7 @@ const ProductPage = () => {
         >
           <ArrowLeft className="w-6 h-6 text-gray-700" />
         </button>
-      </div>
+      </div> */}
 
       {/* Product Content */}
       <div className="flex-1 overflow-y-auto">
